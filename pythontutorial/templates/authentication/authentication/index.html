@@ -2,14 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
+    <style>body{
+    position: relative;
+    background-color: rgb(11, 150, 104);
+    color:darkblue;
+    }
+    .text{
+text-align: center;
+    }
+    span{
+        color:brown
+    }
+    .back{
+        background-image: url("../../../assets/me.png");
+        width: 20vw;
+        height: 10vh;
+        justify-content: center;
+        position: relative;
+        color :blue;
+    }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Authentication</title>
 </head>
 <body>
-    <h1>Welcome to my python page</h1>
-    <button type="submit"><a href="/siginup">SiginUp</a></button>
-    <button type="submit"> <a href="/siginin">SiginIn</a></button>
-    <button type="submit"><a href="/siginout">SiginOut</a></button>
+    <h1 class="text">Welcome to <span>My Python Page</span></h1>
+    <button type="submit"><a href="signup">SiginUp</a></button>
+    <button type="submit"> <a href="signin">SiginIn</a></button>
+    <button type="submit"><a href="signout">SiginOut</a></button>
+    <div class = "back">Hello</div>
 </body>
 </html>
